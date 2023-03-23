@@ -10,9 +10,9 @@
         <h2 class="mb-12 text-2xl text-center">Newest items</h2>
 
         <div class="grid grid-cols-3 gap-3">
-            <!-- {% for item in Items %}
-                <div>
-                    <a href="{% url 'item:detail' item.id %}">
+            {% for item in items %}
+                <div> 
+                    <a href="#">
                         <div>
                             <img src="{{ item.image.url }}" class="rounded-t-xl">
                         </div>
@@ -24,7 +24,7 @@
                         </div>
                     </a>
                 </div>
-            {% endfor %} -->
+            {% endfor %}
         </div>
     </div>
 {% endblock %}
