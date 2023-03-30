@@ -8,7 +8,7 @@
 ## Getting Started
 ### Installation
 1. Clone the repo
- `git clone [repo's URL]`
+ `git clone https://github.com/bouzenaali/puddle.git`
  2. Run the server
   `python manage.py runserver`
  3. Access the application in your web browser at http://localhost:8000
